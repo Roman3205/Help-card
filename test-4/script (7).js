@@ -35,133 +35,133 @@ buttonNode.addEventListener('click', function(event) {
         <li class="ans${answers[i]}">${inputValue}</li>
         `;
     }
-    if (allInputsFilled) {
-        body.classList.add(`no-scroll`)
-        resultsNode.classList.remove('d-none');
-        for (let i = 1; i <= 12; i++) {
-            let ansElement = document.querySelector(`.ans${i}`);
-            let answer = ansElement.textContent;
+    // if (allInputsFilled) {
+    body.classList.add(`no-scroll`)
+    resultsNode.classList.remove('d-none');
+    for (let i = 1; i <= 12; i++) {
+        let ansElement = document.querySelector(`.ans${i}`);
+        let answer = ansElement.textContent;
 
-            switch (i) {
-                case 1:
-                    if (answer.toLowerCase() === 'haskell') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 2:
-                    if (answer.toUpperCase() === 'ОБЛАКО') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 3:
-                    if (answer === '6') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 4:
-                    if (answer === '8') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 5:
-                    if (answer === '2') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 6:
-                    if (answer === '5') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 7:
-                    if (answer.toUpperCase() === 'АБЕЖДГВ') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 8:
-                    if (answer === '2300') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 9:
-                    if (answer === '26') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 10:
-                    if (answer === '44') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 11:
-                    if (answer.toLowerCase() === 'три встречи') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                case 12:
-                    if (answer === '13') {
-                        ansElement.classList.add('true');
-                        count++;
-                    } else {
-                        ansElement.classList.add('false');
-                    }
-                    break;
-                default:
-                    break;
-            }
+        switch (i) {
+            case 1:
+                if (answer.toLowerCase() === 'ada') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 2:
+                if (answer === '5') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 3:
+                if (answer === '10') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 4:
+                if (answer === '8') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 5:
+                if (answer === '3') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 6:
+                if (answer === '6') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 7:
+                if (answer.toUpperCase() === 'АЖЕБДВГ') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 8:
+                if (answer === '2100') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 9:
+                if (answer === '17') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 10:
+                if (answer === '80') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 11:
+                if (answer.toLowerCase() === 'сергей') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            case 12:
+                if (answer === '5') {
+                    ansElement.classList.add('true');
+                    count++;
+                } else {
+                    ansElement.classList.add('false');
+                }
+                break;
+            default:
+                break;
         }
-        score.innerHTML = `
+    }
+    score.innerHTML = `
         <h5 id="score" style="margin: 20px 0px 20px 0px; text-align: center;">Набрано баллов: <b>${count}</b></h5>
         `;
-        if (count <= 4) {
-            mark = 2;
-        } else if (5 <= count <= 10) {
-            mark = 3;
-        } else if (11 <= count <= 15) {
-            mark = 4;
-        } else if (16 <= count <= 19) {
-            mark = 5;
-        }
-        yourmark.innerHTML = `
+    if (count <= 4) {
+        mark = 2;
+    } else if (5 <= count <= 10) {
+        mark = 3;
+    } else if (11 <= count <= 15) {
+        mark = 4;
+    } else if (16 <= count <= 19) {
+        mark = 5;
+    }
+    yourmark.innerHTML = `
         <h2 id="mark" style="margin: 20px 0px 20px 0px; text-align: center;">Ваша оценка <b>${mark}</b></h2>
         `;
-    } else {
-        punderbutNode.classList.remove('d-none');
-        resultsNode.classList.add('d-none');
-    }
+    // } else {
+    //     punderbutNode.classList.remove('d-none');
+    //     resultsNode.classList.add('d-none');
+    // }
 });
 
 // Таймер //

@@ -97,25 +97,33 @@ input[type="button"]:hover {
 }
 
 .imgm2 {
-    margin: 20px 0px 40px 65px;
+    margin: 20px 0px 40px 240px;
 }
 
 .kt2 {
-    padding: 25px 0px 0px 270px;
+    padding: 25px 0px 0px 240px;
 }
 
 .kt3 {
-    padding: 0px 0px 0px 200px;
+    padding: 0px 0px 0px 145px;
 }
 
 .kt4 {
-    padding: 25px 0px 0px 280px
+    padding: 25px 0px 0px 300px
 }
 
 .imgm5,
 .imgm4,
 .imgm3 {
-    margin: 20px 0px 40px 170px;
+    margin: 20px 0px 40px 160px;
+}
+
+.imgm4 {
+    margin: 20px 0px 40px 210px;
+}
+
+.imgm5 {
+    margin: 20px 0px 40px 210px;
 }
 
 .imgm6 {
@@ -125,11 +133,16 @@ input[type="button"]:hover {
 .kt5,
 .kt6,
 .kt7 {
-    padding: 25px 0px 0px 320px;
+    padding: 25px 0px 0px 330px;
 }
 
 .kt8 {
     padding: 25px 0px 0px 330px;
+}
+
+.pass-p2 {
+    padding-left: 290px;
+    font-size: 18px;
 }
 
 .text-muted {
@@ -137,7 +150,7 @@ input[type="button"]:hover {
 }
 
 .imgm7 {
-    margin: 20px 0px 40px 200px;
+    margin: 20px 0px 40px 140px;
 }
 
 .imgm8 {
@@ -145,7 +158,7 @@ input[type="button"]:hover {
 }
 
 .imgm9 {
-    margin: -1100px 0px 0px 30px;
+    margin: 20px 0px 0px 160px;
 }
 
 .res,
@@ -181,7 +194,7 @@ input[type="button"]:hover {
 .containeryour li,
 .yourscore li {
     width: 100px;
-    height: 24.7px;
+    height: 24.8px;
 }
 
 .true {
@@ -334,8 +347,8 @@ input[type="button"]:hover {
         padding: 0px 20px 0px 0px;
     }
     .imgm1 {
-        width: 200px;
-        margin: 0px 0px 20px 30px;
+        width: 300px;
+        margin: 0px 0px 20px 0px;
     }
     .imgm2 {
         width: 320px;
@@ -511,5 +524,14 @@ input[type="button"]:hover {
     }
     .rightans {
         margin-left: -15px;
+    }
+    .pass-p2 {
+        padding-left: 50px;
+    }
+    .results {
+        background-color: white;
+    }
+    .expandedpart {
+        margin-left: -30px;
     }
 }

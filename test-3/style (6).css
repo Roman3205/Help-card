@@ -520,4 +520,10 @@ input[type="button"]:hover {
     .pass-p2 {
         padding-left: 50px;
     }
+    .results {
+        background-color: white;
+    }
+    .expandedpart {
+        margin-left: -30px;
+    }
 }
