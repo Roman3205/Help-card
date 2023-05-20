@@ -401,7 +401,7 @@ input[type="button"]:hover {
         margin-top: 0px;
     }
     .pass-p {
-        padding-top: -20px;
+        padding-top: -40px;
         padding-left: 280px;
         padding-right: 280px;
         text-align: center;
@@ -416,11 +416,11 @@ input[type="button"]:hover {
     }
     .testpartinfo,
     .expandedpartinfo {
-        margin-left: 320px;
+        margin-left: 280px;
         font-weight: bold;
     }
     .expandedpartinfo {
-        margin-left: 310px;
+        margin-left: 270px;
     }
     .yourscore {
         margin-right: 0px;
@@ -448,7 +448,7 @@ input[type="button"]:hover {
         margin-top: 20px;
     }
     #score {
-        margin-top: 10px;
+        margin-top: -40px;
     }
     #yourmark {
         margin-left: 0px;
