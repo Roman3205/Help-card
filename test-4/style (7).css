@@ -347,12 +347,12 @@ input[type="button"]:hover {
         padding: 0px 20px 0px 0px;
     }
     .imgm1 {
-        width: 300px;
-        margin: 0px 0px 20px 0px;
+        width: 240px;
+        margin: 0px 0px 20px 20px;
     }
     .imgm2 {
-        width: 320px;
-        margin: 0px 0px 20px 0px;
+        width: 260px;
+        margin: 0px 0px 20px 20px;
     }
     .imgm3 {
         width: 305px;
@@ -429,11 +429,11 @@ input[type="button"]:hover {
     }
     .testpartinfo,
     .expandedpartinfo {
-        margin-left: 320px;
+        margin-left: 280px;
         font-weight: bold;
     }
     .expandedpartinfo {
-        margin-left: 310px;
+        margin-left: 270px;
     }
     .yourscore {
         margin-right: 0px;
@@ -461,7 +461,7 @@ input[type="button"]:hover {
         margin-top: 20px;
     }
     #score {
-        margin-top: 10px;
+        margin-top: -40px;
     }
     #yourmark {
         margin-left: 0px;
