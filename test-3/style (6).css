@@ -310,7 +310,13 @@ input[type="button"]:hover {
 .pex2 {
     padding-left: 295px;
 }
-
+.span {
+    background: linear-gradient(to right, rgb(239, 72, 72), coral, darkorange, orange,#ef79bc, #FF00FF);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
 
 /* медиа запросы */
 

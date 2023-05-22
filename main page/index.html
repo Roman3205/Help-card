@@ -8,8 +8,9 @@
     <title>Help-card OGE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
@@ -20,16 +21,17 @@
                 <img src="assets/logo.png" id="dark-mode" alt="" width="180px" class="mb-3 mb-lg-0 me-4 mt-3 ms-lg-2 me-lg-1 mt-lg-0 img1">
             </a>
             <ul class="nav nav-pills mt-lg-1">
-                <li class="nav-item ms-3 ms-lg-0"><a href="../main page/index.html" class="btn btn-md btn-primary fw-bold text-white pb-2" aria-current="page">Главная</a></li>
-                <li class="nav-item"><a href="../reminder/index (2).html" class="nav-link">Памятка</a></li>
-                <li class="nav-item"><a href="../video guides/index (3).html" class="nav-link">Отдельные видеообучалки</a></li>
+                <li class="nav-item ms-4 ms-lg-0"><a href="../main page/index.html" class="btn btn-md btn-primary fw-bold text-white pb-2" aria-current="page">Главная</a></li>
+                <li class="nav-item"><a href="ССЫЛКА НА САЙТ" class="nav-link"><span class="span">Памятка+</span></a></li>
+                <li class="nav-item"><a href="../reminder/index (2).html" class="nav-link">Инструкция</a></li>
+                <li class="nav-item ms-2 ms-lg-0"><a href="../video guides/index (3).html" class="nav-link">Отдельные видеообучалки</a></li>
                 <li class="nav-item"><a href="https://inf-oge.sdamgia.ru/" class="nav-link">Исходники</a></li>
             </ul>
         </header>
         <main class="container">
             <section>
                 <div class="p-5 item" id="item">
-                    <h1>Памятка о выполнении заданий</h1>
+                    <h1>Инструкция по выполнению заданий</h1>
                     <p class="lead">Перейдя по этой ссылке вы сможете ознакомиться с тем, как решать без ошибок задания из ОГЭ</p>
                     <a class="btn btn-lg btn-primary p-3 fw-bold text-white " href="../reminder/index (2).html" role="button">
                         <h1>Перейти</h1>
@@ -53,10 +55,58 @@
                     </div>
                 </div>
             </div>
+            <div class="container3">
+                <h3>Расширенная версия памятки уже доступна!</h3>
+                <h4>На ней вы можете:</h4>
+                <div class="slider">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/m_exmaterial.jpg" class="d-block w-100" alt="">
+                                <div class="carousel-caption">
+                                  <h5>Писать отзывы.</h5>
+                                  <p>И ставить реакции к отзывам.</p>
+                                </div>
+                              </div>
+                          <div class="carousel-item">
+                            <img src="assets/m_feedback.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption">
+                              <h5>Просматривать расширенный материал</h5>
+                              <p>И решать интерактивные тесты.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/createtasks.jpg" class="d-block w-100" alt="">
+                            <div class="carousel-caption">
+                              <h5>Составлять свои собственные задания.</h5>
+                              <p>И решать задачи от других пользователей.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <a class="btn btn-sm py-1 pt-2 btn-primary fw-bold text-white mb-4" href="../reminder/index (2).html" role="button">
+                    <h3>Перейти</h3>
+                </a>
+            </div>
         </main>
-        <footer class="py-3 my-4">
+        <footer class="py-3 my-5">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="../reminder/index (2).html" class="nav-link">Памятка</a></li>
+                <li class="nav-item"><a href="ССЫЛКА НА САЙТ" class="nav-link"><span class="span">Памятка+</span></a></li>
+                <li class="nav-item"><a href="../reminder/index (2).html" class="nav-link">Инструкция</a></li>
                 <li class="nav-item"><a href="../video guides/index (3).html" class="nav-link">Отдельные видеообучалки</a></li>
                 <li class="nav-item"><a href="https://inf-oge.sdamgia.ru/" class="nav-link">Исходники</a></li>
             </ul>

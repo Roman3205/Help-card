@@ -69,3 +69,31 @@ main {
 .img1:hover {
     cursor: pointer;
 }
+
+.slider {
+    transform: scaleY(0.9);
+}
+
+.slider h5,
+.slider p {
+    font-weight: bold !important;
+}
+.container3 {
+    margin-top: 140px;
+    text-align: center;
+}
+.span {
+    background: linear-gradient(to right, rgb(239, 72, 72), coral, darkorange, orange,#ef79bc, #FF00FF);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-caption p,
+    .carousel-caption h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
