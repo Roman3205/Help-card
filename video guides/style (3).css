@@ -150,7 +150,9 @@ footer {
     }
     .box12 ul {
         margin-top: 300px;
-        margin-left: 10px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
     }
     .ul1,
     .ul2 {
@@ -164,7 +166,7 @@ footer {
         width: 270px;
     }
     .player iframe {
-        width: 64%;
+        width: 67%;
         height: 72%;
         top: -2px;
     }
