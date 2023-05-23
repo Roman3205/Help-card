@@ -145,10 +145,6 @@ input[type="button"]:hover {
     font-size: 18px;
 }
 
-.text-muted {
-    margin-left: 20px;
-}
-
 .imgm7 {
     margin: 20px 0px 40px 140px;
 }
@@ -200,7 +196,9 @@ input[type="button"]:hover {
 .true {
     background-color: rgb(78, 210, 78);
 }
-
+.fiftyfifty {
+    background-color: rgb(247, 247, 74);
+}
 .false {
     background-color: rgb(228, 77, 77);
 }

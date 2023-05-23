@@ -38,6 +38,65 @@ buttonNode.addEventListener('click', function(event) {
     if (allInputsFilled) {
         body.classList.add(`no-scroll`)
         resultsNode.classList.remove('d-none');
+
+        // задание 13
+        const checkbox0 = document.querySelector('#inlineCheckbox132');
+        const checkbox1 = document.querySelector('#inlineCheckbox133');
+        const eans1 = document.querySelector('.eans1');
+          if (checkbox0.checked) {
+            eans1.innerHTML = `
+            <li class="eans1 fiftyfifty">1</li>
+            `
+            count+=1
+          }
+          if (checkbox1.checked) {
+            eans1.innerHTML = `
+            <li class="eans1 true">2</li>
+            `
+            count+=2
+          }
+        
+        // задание 14
+        const checkbox2 = document.querySelector('#inlineCheckbox142');
+        const checkbox3 = document.querySelector('#inlineCheckbox143');
+        const checkbox4 = document.querySelector('#inlineCheckbox144');
+        const eans2 = document.querySelector('.eans2');
+        if (checkbox2.checked) {
+            eans2.innerHTML = `
+            <li class="eans2 fiftyfifty">1</li>
+            `
+            count+=1
+          }
+        if (checkbox3.checked) {
+            eans2.innerHTML = `
+            <li class="eans2 fiftyfifty">2</li>
+            `
+            count+=2
+        }
+        if (checkbox4.checked) {
+            eans2.innerHTML = `
+            <li class="eans2 true">3</li>
+            `
+            count+=3
+        }
+        // задание 15
+        const checkbox5 = document.querySelector('#inlineCheckbox152');
+        const checkbox6 = document.querySelector('#inlineCheckbox153');
+        const eans3 = document.querySelector('.eans3');
+            if (checkbox5.checked) {
+              eans3.innerHTML = `
+              <li class="eans3 fiftyfifty">1</li>
+              `
+              count+=1
+        }
+        if (checkbox6.checked) {
+              eans3.innerHTML = `
+              <li class="eans1 true">2</li>
+              `
+              count+=2
+        }
+
+        // задания 1-12
         for (let i = 1; i <= 12; i++) {
             let ansElement = document.querySelector(`.ans${i}`);
             let answer = ansElement.textContent;

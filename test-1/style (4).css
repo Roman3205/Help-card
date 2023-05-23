@@ -132,10 +132,6 @@ input[type="button"]:hover {
     padding: 25px 0px 0px 330px;
 }
 
-.text-muted {
-    margin-left: 20px;
-}
-
 .imgm7 {
     margin: 20px 0px 40px 90px;
 }
@@ -195,7 +191,9 @@ input[type="button"]:hover {
 .false {
     background-color: rgb(228, 77, 77);
 }
-
+.fiftyfifty {
+    background-color: rgb(247, 247, 74);
+}
 .pass-p {
     padding-left: 20px;
 }
