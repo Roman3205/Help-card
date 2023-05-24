@@ -310,7 +310,22 @@ input[type="button"]:hover {
     -webkit-text-fill-color: transparent;
     color: #0B2349;
 }
+.calculator {
+    transform: scale(0.45);
+    margin-top: -30px;
+    margin-left: -350px;
 
+}
+.h6c {
+    text-align: left;
+     padding: 50px 0px 0px 100px;
+}
+.calculator button:hover {
+    background-color: #64a2ff;
+}
+.exercise1 {
+    border-top: 1px solid lightgrey;
+}
 /* медиа запросы */
 
 @media screen and (max-width: 576px) {
@@ -319,6 +334,14 @@ input[type="button"]:hover {
         padding: 10px;
         margin-left: 10px;
         padding-left: 0px;
+    }
+    .calculator {
+        margin: -50px 0px 0px 0px;
+        transform: scale(0.55);
+    }
+    .h6c {
+        text-align: left;
+        padding: 40px 0px 0px 20px;
     }
     .textvar1 {
         padding-left: 20px;

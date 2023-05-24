@@ -285,3 +285,32 @@ pauseButton.addEventListener('click', function() {
 });
 
 startTimer();
+
+// калькулятор
+let output = document.querySelector('.output');
+let buttons = document.querySelectorAll('.button');
+let reset = document.querySelector(`.reset`)
+
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    output.textContent += button.textContent;
+  });
+});
+
+let result = document.querySelector('.result');
+
+result.addEventListener('click', function() {
+    let input = output.textContent;
+
+    if (input.includes('//') || input.includes('**') || input.includes('++') || input.includes('--') || input.includes('==')) {
+        output.style.color = `red`
+        output.style.fontSize = '30px';
+        output.textContent = 'ERROR';
+    } else {
+      output.textContent = eval(input);
+    }
+});
+
+reset.addEventListener(`click`, function() {
+    output.textContent = ``
+})
