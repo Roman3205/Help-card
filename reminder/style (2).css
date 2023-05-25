@@ -116,4 +116,7 @@ header {
     .ex77 {
         margin-left: 155px;
     }
+    .img8, .img82, .img9, .img92 {
+        width: 320px;
+    }
 }
