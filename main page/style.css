@@ -103,6 +103,6 @@ main {
     }
     .carousel-inner img {
         height: 320px;
-        filter: brightness(55%);
+        filter: brightness(65%);
     }
 }
