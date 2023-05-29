@@ -89,11 +89,18 @@ main {
     -webkit-text-fill-color: transparent;
     color: #0B2349;
 }
+.carousel-inner img {
+    width: 100%;
+}
 
 @media screen and (max-width: 576px) {
     .carousel-caption p,
     .carousel-caption h5 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
+        padding-bottom: 25px;
+    }
+    .carousel-inner img {
+        width: 700px
     }
 }
