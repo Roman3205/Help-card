@@ -80,7 +80,9 @@ header {
 .ex7,
 .ex77 {
     text-align: left;
-    margin-left: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-table td {
@@ -118,5 +120,14 @@ header {
     }
     .img8, .img82, .img9, .img92 {
         width: 320px;
+    }
+    .imgm6 {
+        width: 350px;
+    }
+    .imgm7 {
+        width: 270px;
+    }
+    .imgm8 {
+        width: 330px;
     }
 }

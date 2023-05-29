@@ -71,7 +71,7 @@ buttonNode.addEventListener('click', function(event) {
             eans2.innerHTML = `
             <li class="eans2 fiftyfifty">2</li>
             `
-            count+=2
+            count+= 2
         }
         if (checkbox4.checked) {
             eans2.innerHTML = `
@@ -205,20 +205,23 @@ buttonNode.addEventListener('click', function(event) {
         score.innerHTML = `
         <h5 id="score" style="margin: 20px 0px 20px 0px; text-align: center;">Набрано баллов: <b>${count}</b></h5>
         `;
+        let mark;
         if (count <= 4) {
             mark = 2;
-        } else if (5 <= count <= 10) {
+        } else if (count >= 5 && count <= 10) {
             mark = 3;
-        } else if (11 <= count <= 15) {
+        } else if (count >= 11 && count <= 15) {
             mark = 4;
-        } else if (16 <= count <= 19) {
+        } else if (count >= 16 && count <= 19) {
             mark = 5;
         }
+
         yourmark.innerHTML = `
         <h2 id="mark" style="margin: 20px 0px 20px 0px; text-align: center;">Ваша оценка <b>${mark}</b></h2>
         `;
 
     } else {
+        containerNode.innerHTML = ``
         punderbutNode.classList.remove('d-none');
         resultsNode.classList.add('d-none');
     }
