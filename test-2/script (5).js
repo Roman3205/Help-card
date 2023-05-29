@@ -307,7 +307,6 @@ result.addEventListener('click', function() {
 
     if (input.includes('//') || input.includes('**') || input.includes('++') || input.includes('--') || input.includes('==')) {
         output.style.color = `red`
-        output.style.fontSize = '30px';
         output.textContent = 'ERROR';
     } else {
       output.textContent = eval(input);
@@ -315,5 +314,6 @@ result.addEventListener('click', function() {
 });
 
 reset.addEventListener(`click`, function() {
+    output.style.color = `black`
     output.textContent = ``
 })
